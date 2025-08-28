@@ -1066,4 +1066,27 @@ https://www.tooplate.com/view/2142-cloud-sync
         @media (max-width: 768px) {
             .media-box { aspect-ratio: 4 / 3; }
         }
+/* Mobile-specific improvements for the About Section */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr; /* Daha dar ekranlar için tek sütun */
+        gap: 1rem; /* Elemanlar arasında biraz boşluk */
+    }
+
+    .about-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .about-subtitle {
+        font-size: 1rem;
+    }
+
+    .stat-card {
+        padding: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 1.75rem;
+    }
+}
 
