@@ -1110,7 +1110,7 @@ head::after {
 .video-wrap iframe {
   position: absolute;
   top: 0; left: 0;
-  width: auto%; height: auto%;
+  width: auto; height: auto;
 }
 
 
