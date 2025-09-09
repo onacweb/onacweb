@@ -1,11 +1,3 @@
-/*
-
-Tooplate 2142 Cloud Sync
-
-https://www.tooplate.com/view/2142-cloud-sync
-
-*/
-
 @charset "utf-8";
 /* CSS Document */
 
@@ -1089,4 +1081,13 @@ https://www.tooplate.com/view/2142-cloud-sync
         font-size: 1.75rem;
     }
 }
+.secenek-aciklama {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin: 10px 0 15px 0;
+  line-height: 1.6;
+}
+
+
+
 
