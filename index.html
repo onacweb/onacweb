@@ -1,264 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ONAÇ Web Studio - Logo, Grafik Tasarım, Sosyal Medya Tasarımları ve daha fazlası. Yaratıcı ve profesyonel çözümler sunuyoruz.">
-    <meta name="keywords" content="web tasarım, logo tasarım, grafik tasarım, sosyal medya tasarımı, afiş tasarımı">
-    <meta name="author" content="ONAÇ Web Studio">
-    <title>ONAÇ WEB STUDIO</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07152f" />
+  <meta name="description" content="Planlı bakım çalışması bilgilendirme sayfası" />
+  <title>Planlı Bakım Çalışması</title>
 
-    <!-- Favicon Ekleme -->
-    <link rel="icon" type="image/x-icon" href="images/logo4.png"> 
-    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link href="tooplate-cloud-sync-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Animated Background -->
-    <div class="floating-shapes">
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
+  <div class="background-grid"></div>
+  <div class="glow glow-left"></div>
+  <div class="glow glow-right"></div>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-container">
-            <div class="logo">
-                <img src="images/ft.jpg" alt="" class="logo-img">
-                <span>ONAÇ WEB STUDIO</span>
-            </div>
+  <main class="page-shell">
+    <section class="maintenance-card">
+      <div class="brand-area">
+        <div class="logo-mark" aria-label="Şirket logosu">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M27 4h10l2 8a22 22 0 0 1 5 3l8-2 5 9-6 6v8l6 6-5 9-8-2a22 22 0 0 1-5 3l-2 8H27l-2-8a22 22 0 0 1-5-3l-8 2-5-9 6-6v-8l-6-6 5-9 8 2a22 22 0 0 1 5-3l2-8Z"/>
+            <circle cx="32" cy="32" r="10"/>
+          </svg>
+        </div>
 
-            <div class="nav-links">
-                <a href="#features">Hakkımızda</a>
-                <a href="#pricing">Seçeneklerimiz</a>
-                <a href="#about">Hizmetlerimiz</a>
-                <a href="#quick-contact" class="cta-button">Hızlı İletişim</a>
-            </div>
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+        <div class="eyebrow">
+          <span></span>
+          PLANLI BAKIM ÇALIŞMASI
+          <span></span>
         </div>
-        <div class="mobile-nav" id="mobileNav">
-            <a href="#features">Hakkımızda</a>
-            <a href="#pricing">Seçeneklerimiz</a>
-            <a href="#about">Hizmetlerimiz</a>
-            <a href="#" class="cta-button">Start Free Trial</a>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-backgrounds">
-            <div class="hero-bg"></div>
-            <div class="hero-bg"></div>
-            <div class="hero-bg"></div>
+        <h1>Web Sitemizi Yeniliyoruz</h1>
+
+        <p class="intro">
+          Hizmet kalitemizi artırmak, altyapımızı güçlendirmek ve sizlere daha hızlı,
+          güvenli ve kesintisiz bir deneyim sunmak amacıyla planlı bakım çalışmaları
+          gerçekleştiriyoruz.
+        </p>
+
+        <div class="status-line">
+          <span class="status-icon">✓</span>
+          <p>
+            Çalışmalarımızın <strong>3 gün içerisinde</strong> tamamlanması ve
+            web sitemizin yeniden erişime açılması planlanmaktadır.
+          </p>
         </div>
-        <div class="hero-content">
-            <h1>Logonuzun Hayalini Kurun, Gerisini Bize Birakin!</h1>
-            <p class="hero-subtitle">Hayal gücünüzle yola çıktık, tasarımla gerçeğe dönüştürdük. 10 yılı aşkın süredir logo, afiş, sosyal medya ve tüm görsel ihtiyaçlarınızda yanınızdayız. Yalnızca tasarlamıyoruz — markanızı konuşturuyoruz!</p>
+      </div>
+
+      <section class="countdown-panel" aria-label="Geri sayım">
+        <article class="countdown-item">
+          <span class="item-icon">▣</span>
+          <strong id="days">03</strong>
+          <small>GÜN</small>
+        </article>
+
+        <article class="countdown-item">
+          <span class="item-icon">◷</span>
+          <strong id="hours">00</strong>
+          <small>SAAT</small>
+        </article>
+
+        <article class="countdown-item">
+          <span class="item-icon">◴</span>
+          <strong id="minutes">00</strong>
+          <small>DAKİKA</small>
+        </article>
+
+        <article class="countdown-item">
+          <span class="item-icon">⌛</span>
+          <strong id="seconds">00</strong>
+          <small>SANİYE</small>
+        </article>
+      </section>
+
+      <div class="notice">
+        <span>🛡</span>
+        <p>Göstermiş olduğunuz anlayış ve sabır için teşekkür ederiz.</p>
+      </div>
+
+      <footer class="footer">
+        <div class="contact-box">
+          <div class="contact-icon">✉</div>
+          <div>
+            <span>Bizimle iletişime geçin</span>
+            <a href="mailto:destek@firmaadi.com">destek@firmaadi.com</a>
+          </div>
         </div>
+
+        <div class="footer-actions">
+          <a href="tel:+900000000000" class="contact-button">Bize Ulaşın</a>
+          <span class="copyright">© <span id="year"></span> Tüm hakları saklıdır.</span>
+        </div>
+      </footer>
     </section>
+  </main>
 
-    <!-- Features Section -->
-    <section class="features" id="features">
-        <div class="features-container">
-            <div class="features-header">
-                <h2>Markanıza Güç Katan Tasarımlar</h2>
-                <p class="features-subtitle">Logo, katalog, ambalaj ve 3D tasarımlar ile markanızı daha güçlü ve profesyonel bir görünüme kavuşturuyoruz</p>
-            </div>
-            <div class="features-layout">
-                <!-- Two Column Features -->
-                <div class="features-two-col">
-                    <div class="feature-card-large">
-                        <div class="feature-icon">🎨</div>
-                        <h3>🎨 Hakkımızda</h3>
-                        <p>Hayal gücünü tasarımla buluşturduğumuz bu yolda, 10 yılı aşkın süredir yaratıcı çözümler sunuyoruz. Logo, afiş, sosyal medya görselleri ve daha fazlasında; markanızı sadece tasarlamakla kalmıyor, konuşturuyoruz.</p>
-                    </div>
-                    <div class="feature-card-large">
-                        <div class="feature-icon">🤝</div>
-                        <h3>Taahhütlerimiz ve Teslimat Garantimiz</h3>
-                        <p>Anlaşma sağlanan tüm projeleri, belirlenen zaman ve teslim tarihleri doğrultusunda eksiksiz ve özenli bir şekilde tamamlıyoruz. Müşteri memnuniyetini en üst seviyede tutmak ve uzun vadeli iş birlikleri kurmak önceliğimizdir.</p>
-                        <ul class="feature-checklist">
-                            <li>7/24 Proje Takibi ve Destek</li>
-                            <li>Projenin Güncel Durumunu Takip Edin</li>
-                            <li>Fikir ve Tasarım Hakları Sizde</li>
-                        </ul>
-                    </div>
-                </div>         
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="pricing" id="pricing">
-        <div class="pricing-cards">
-            <div class="pricing-card">
-                <h3 class="plan-name">Kurumsal ve Grafik Tasarım Çözümleri</h3>
-                <ul class="plan-features">
-                    <li>Logo Tasarım</li>
-                    <li>Grafik Tasarım</li>
-                    <li>Oyun Logo Tasarım</li>
-                    <li>Kurumsal Kimlik Tasarımı</li>
-                    <li>Katalog Tasarımı</li>
-                    <li>Tabela Tasarımı</li>
-                    <li>Ambalaj Tasarım</li>
-                    <li>3D Logo Tasarım</li>
-                </ul>
-                <a href="#" class="cta-button">Grup 1</a>
-            </div>
-
-            <div class="pricing-card">
-                <h3 class="plan-name">Dijital ve Yayın Tasarımı Uzmanlığı</h3>
-                <ul class="plan-features">
-                    <li>Kitap Ayraçı Tasarımı</li>
-                    <li>Wix Logo Tasarım</li>
-                    <li>Sosyal Medya Tasarım</li>
-                    <li>Poster Tasarım</li>
-                    <li>Kurumsal Logo Tasarımı</li>
-                    <li>Kitap Kapağı Tasarımı</li>
-                    <li>Vektör Tasarım</li>
-                    <li>Afiş Tasarım</li>
-                </ul>
-                <a href="#" class="cta-button">Grup 2</a>
-            </div>
-
-            <div class="pricing-card">
-                <h3 class="plan-name">Marka Kimliği ve Reklam Tasarımları 3</h3>
-                <ul class="plan-features">
-                    <li>Canva Tasarım</li>
-                    <li>Kartvizit Tasarımı</li>
-                    <li>Figma Tasarım</li>
-                    <li>Reklam Ajansı</li>
-                    <li>Youtube Logo Yapma</li>
-                    <li>Marka Tasarımı</li>
-                    <li>Etiket Tasarımı</li>
-                    <li>Broşür Tasarım</li>
-                    <li>Banner Tasarımı</li>
-                </ul>
-                <a href="#" class="cta-button">Grup 3</a>
-                
-            </div>
-          <!-- Video Bölümü -->
-            <div class="pricing-card">
-                <div class="video-box">
-                 <iframe 
-                    src="https://www.youtube.com/embed/qaxdhL-YKSE" 
-                    title="YouTube video" 
-                    frameborder="0" 
-                    allow="autoplay; encrypted-media; picture-in-picture" 
-                    allowfullscreen>
-                 </iframe>
-                </div>
-
-                <!-- Stil -->
-                <style>
-                .video-box {
-                  width: 278px;           /* istediğin genişlik */
-                  aspect-ratio: 2 / 3;    /* 2:3 oran */
-                  background: #000;       /* video yüklenmeden önce siyah görünür */
-                  border-radius: 12px;    /* köşeleri yumuşatır */
-                  overflow: hidden;
-                  margin: 20px 0;         /* istersen üst-alt boşluk ekler */
-                }
-                .video-box iframe {
-                 width: 100%;
-                  height: 100%;
-                  display: block;
-                 border: 0;
-                }
-</style>
-</div>
-        </div>
-    </section>
-    
-
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="about-container">
-            <div class="about-content">
-                <h2>Markanıza Güç Katan Tasarımlar</h2>
-                <p class="about-subtitle">Logo, katalog, ambalaj ve 3D tasarımlar ile markanızı daha güçlü ve profesyonel bir görünüme kavuşturuyoruz.</p>
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">7/24 Hizmet</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">Türkçe<br>İngilizce<br>Almanca<br>Fransızca<br>Dil Seçenekleri</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">100+<br>Şablon Seçeneği</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">Filigranlama ile size ait tasarımlar</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <div class="contact-info">
-        <div class="quick-contact" id="quick-contact">
-            <h3>Hızlı İletişim</h3>
-            <div class="contact-methods">
-                <a href="tel:+05010842641" class="contact-method">
-                    <span class="method-icon">📱</span>
-                    <div class="method-details">
-                        <strong>Bizi Arayın</strong>
-                        <span>0501 084 2641</span>
-                    </div>
-                </a>
-                <a href="https://wa.me/905010842641" class="contact-method" target="_blank" rel="noopener noreferrer">
-                    <span class="method-icon">💬</span>
-                    <div class="method-details">
-                        <strong>Whatsapp Hattımız</strong>
-                        <span>0501 084 2641</span>
-                    </div>
-                </a>
-                <a href="mailto:support@cloudsync.com" class="contact-method">
-                    <span class="method-icon">📧</span>
-                    <div class="method-details">
-                        <strong>Email</strong>
-                        <span>onacweb@hotmail.com</span>
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/onacweb/" class="contact-method" target="_blank" rel="noopener noreferrer">
-                    <span class="method-icon">📷</span>
-                    <div class="method-details">
-                        <strong>Instagram</strong>
-                        <span>@onacweb</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="logo">ONAÇ WEB STUDIO</div>
-                    <p>Markanızın dijital dünyadaki yüzü olan web siteniz, kullanıcı dostu ve modern tasarım anlayışıyla hazırlanır. Estetik, işlevsellik ve mobil uyumluluk ön planda tutularak, ziyaretçilerinize kusursuz bir deneyim sunarız.</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy;2025 ONAÇ WEB STUDIO. Tüm hakları saklıdır.</p>
-                <div class="social-links">
-                    <a href="https://wa.me/905010842641"><strong>💬 Whatsapp Hattımız</strong></a>
-                    <a href="https://www.instagram.com/onacweb/">📷 Instagram</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-<script src="tooplate-cloud-scripts.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
