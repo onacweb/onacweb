@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "username": "Admin",
+        "password_hash": "$2y$12$aKJk1rRggV\/dks64iBFcPu2JKtNkN1Bn.0\/8vqYDZX.yyHMNI7wVe",
+        "role": "Yönetici",
+        "status": "Aktif",
+        "created": "22.08.2026 21:50"
+    }
+]
