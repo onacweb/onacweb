@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#08111d" />
+  <title>MB Yılmazlar Gıda - Teslimat Yönetim Sistemi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loginView" class="login-view">
+    <div class="login-shell">
+      <aside class="login-brand">
+        <div class="brand-lockup">
+          <div class="brand-mark">MB</div>
+          <div>
+            <div class="brand-name">MB YILMAZLAR<br>GIDA</div>
+            <div class="brand-sub">Teslimat Yönetim Sistemi</div>
+          </div>
+        </div>
+        <div class="shield" aria-hidden="true">🛡️</div>
+        <h1>Hoş Geldiniz</h1>
+        <p>Yönetici paneline erişmek için bilgilerinizi girin.</p>
+      </aside>
+
+      <main class="login-card">
+        <div class="login-head">
+          <span class="eyebrow">GÜVENLİ YÖNETİM PANELİ</span>
+          <h2>Yönetici Girişi</h2>
+          <p>Sisteme erişmek için kullanıcı bilgilerinizi girin.</p>
+        </div>
+
+        <form id="loginForm" autocomplete="off">
+          <label for="loginUser">KULLANICI ADI / ID</label>
+          <div class="input-wrap"><span>👤</span><input id="loginUser" type="text" placeholder="Kullanıcı adı" autocomplete="off" /></div>
+          <label for="loginPass">ŞİFRE</label>
+          <div class="input-wrap"><span>🔒</span><input id="loginPass" type="password" placeholder="Şifreniz" autocomplete="new-password" /><button id="togglePass" type="button" class="icon-btn" aria-label="Şifreyi göster">👁</button></div>
+          <button class="primary-btn" type="submit">Giriş Yap</button>
+          <p id="loginError" class="form-error" role="alert"></p>
+        </form>
+
+        <div class="security-note"><span>🛡️</span><div><strong>Güvenli oturum</strong><small>Oturum bilgileri bu cihazda kalıcı tutulmaz. Sunucu yoksa sistem otomatik Yerel Modda çalışır.</small></div></div>
+      </main>
+    </div>
+  </div>
+
+  <div id="appView" class="app hidden">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-lockup side-brand">
+        <div class="brand-mark compact">MB</div>
+        <div><div class="brand-name">MB YILMAZLAR<br>GIDA</div><div class="brand-sub">Teslimat Yönetim Sistemi</div></div>
+      </div>
+      <nav class="nav">
+        <button class="nav-item active" data-section="dashboard"><span>⌂</span>Ana Panel</button>
+        <button class="nav-item" data-section="locations"><span>⌖</span>Konumlar & Rotalar</button>
+        <button class="nav-item" data-section="payments"><span>▣</span>Tahsilatlar</button>
+        <button class="nav-item" data-section="customers"><span>♙</span>Müşteriler</button>
+        <button class="nav-item" data-section="records"><span>▤</span>Kayıtlar</button>
+        <button class="nav-item" data-section="users"><span>♙</span>Kullanıcılar</button>
+        <button class="nav-item" data-section="reports"><span>▥</span>Raporlar</button>
+        <button class="nav-item" data-section="settings"><span>⚙</span>Ayarlar</button>
+      </nav>
+      <div class="side-bottom">
+        <div class="support-card"><div class="support-icon">🎧</div><div><strong>7/24 Destek</strong><small>Her zaman yanınızdayız.</small></div><button>İletişime Geç</button></div>
+        <button id="logoutBtn" class="logout-btn">↪ Çıkış Yap</button>
+      </div>
+    </aside>
+
+    <div class="main-wrap">
+      <header class="topbar">
+        <button id="menuBtn" class="menu-btn" aria-label="Menü">☰</button>
+        <div></div>
+        <div class="top-actions">
+          <div class="date-box"><span>▣</span><div><strong id="topDate"></strong><small id="topDay"></small></div></div>
+          <div class="notif">🔔<span>3</span></div>
+          <div class="profile"><div class="avatar">A</div><div><strong>Admin</strong><small>Yönetici</small></div></div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="section-dashboard" class="section active">
+          <div class="stats-grid">
+            <article class="stat-card"><div class="stat-icon gold">♙</div><div><span>Toplam Kullanıcı</span><strong id="statTotal">0</strong><small>Sistemde kayıtlı</small></div></article>
+            <article class="stat-card"><div class="stat-icon green">♙</div><div><span>Aktif Kullanıcı</span><strong id="statActive">0</strong><small>Aktif durumda</small></div></article>
+            <article class="stat-card"><div class="stat-icon gold">🛡</div><div><span>Yönetici</span><strong id="statAdmin">0</strong><small>Tüm yetkilere sahip</small></div></article>
+            <article class="stat-card"><div class="stat-icon blue">♙</div><div><span>Üye</span><strong id="statMember">0</strong><small>Sistemde kayıtlı</small></div></article>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="panel user-panel">
+              <div class="panel-head">
+                <div><h2>Kullanıcı Listesi</h2><p>Tüm kullanıcıları görüntüleyin ve yönetin.</p></div>
+                <div class="filters"><select id="roleFilter"><option value="all">Tüm Roller</option><option>Yönetici</option><option>Müdür</option><option>Üye</option></select><div class="search-box"><input id="userSearch" placeholder="Kullanıcı ara..."><span>⌕</span></div></div>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>KULLANICI ADI</th><th>ROL</th><th>DURUM</th><th>EKLENME TARİHİ</th><th>İŞLEMLER</th></tr></thead>
+                  <tbody id="userTable"></tbody>
+                </table>
+                <div class="table-foot"><span id="userCount"></span><div class="pager"><button disabled>‹</button><button class="page active">1</button><button disabled>›</button></div></div>
+              </div>
+            </section>
+
+            <aside class="panel add-panel">
+              <div class="panel-head single"><div><h2 id="formTitle">Yeni Kullanıcı Ekle</h2><p>Sisteme yeni kullanıcı ekleyin.</p></div></div>
+              <form id="userForm">
+                <input type="hidden" id="editId" />
+                <label>Kullanıcı Adı (ID)</label><input id="newUsername" required placeholder="Örn: kullanici1" />
+                <label>Şifre</label><input id="newPassword" required type="password" placeholder="Şifre giriniz" autocomplete="new-password" />
+                <label>Rol</label><select id="newRole"><option>Üye</option><option>Müdür</option><option>Yönetici</option></select>
+                <label>Durum</label><select id="newStatus"><option>Aktif</option><option>Pasif</option></select>
+                <button class="primary-btn compact-btn" type="submit" id="saveUserBtn">Kullanıcıyı Kaydet</button>
+                <button class="secondary-btn hidden" type="button" id="cancelEditBtn">Düzenlemeyi İptal Et</button>
+              </form>
+            </aside>
+          </div>
+
+          <div class="security-banner"><div class="banner-icon">🛡</div><div><strong>Güvenliğiniz Bizim İçin Önemli</strong><p>Kullanıcı işlemlerini yalnızca yetkili kişiler gerçekleştirmelidir. Şifrelerinizi kimseyle paylaşmayın.</p></div><div class="banner-shield">🔐</div></div>
+        </section>
+
+        <section id="section-locations" class="section">
+          <div class="locations-head">
+            <div><span class="eyebrow">SAHA & TESLİMAT</span><h2>Konumlar & Rotalar</h2><p>Kayıtlı noktaları arayın, tek dokunuşla yol tarifi alın.</p></div>
+            <button id="openLocationForm" class="primary-btn location-add-btn">＋ Yeni Konum Ekle</button>
+          </div>
+          <div class="location-stats">
+            <div class="mini-stat"><span>Toplam Konum</span><strong id="locationTotal">0</strong></div>
+            <div class="mini-stat"><span>Arama Sonucu</span><strong id="locationShown">0</strong></div>
+            <div class="mini-stat"><span>Yetkiniz</span><strong id="locationRole">—</strong></div>
+          </div>
+          <div class="location-tools">
+            <label class="location-search"><span>⌕</span><input id="locationSearch" type="search" placeholder="Market, büfe, fırın veya not ara..."></label>
+          </div>
+          <div id="locationFormPanel" class="location-form-panel hidden">
+            <div class="location-form-head"><div><span class="eyebrow">YÖNETİM</span><h3 id="locationFormTitle">Yeni Konum Ekle</h3></div><button type="button" id="closeLocationForm" class="icon-close">×</button></div>
+            <form id="locationForm" class="location-form">
+              <input type="hidden" id="locationEditId">
+              <label><span>İşletme / Konum Adı</span><input id="locationName" required maxlength="100" placeholder="Örn: Yılmaz Market"></label>
+              <label class="location-value-field"><span>Konum / Google Maps Linki / Koordinat</span><div class="geo-input-row"><input id="locationValue" required placeholder="40.7655,29.7973 veya Google Maps linki"><button type="button" id="getCurrentLocation" class="geo-btn">📍 Bulunduğum Konumu Al</button></div><small id="geoStatus" class="geo-status">Telefonunuzun veya bilgisayarınızın mevcut konumunu tek dokunuşla alabilirsiniz.</small></label>
+              <label class="wide"><span>Not</span><input id="locationNote" maxlength="250" placeholder="Örn: İleride sağda, karşısında..."></label>
+              <div class="location-form-actions wide"><button type="button" id="cancelLocationEdit" class="secondary-btn">Vazgeç</button><button type="submit" class="primary-btn">Konumu Kaydet</button></div>
+            </form>
+          </div>
+          <div id="locationList" class="location-grid"></div>
+          <div id="locationEmpty" class="location-empty hidden">Aramanızla eşleşen konum bulunamadı.</div>
+        </section>
+        <section id="section-payments" class="section"><div class="placeholder-panel"><h2>Tahsilatlar</h2><p>Nakit, kart ve IBAN tahsilat kayıtları için hazır alan.</p></div></section>
+        <section id="section-customers" class="section"><div class="placeholder-panel"><h2>Müşteriler</h2><p>Müşteri listesi ve detay ekranı.</p></div></section>
+        <section id="section-records" class="section"><div class="placeholder-panel"><h2>Kayıtlar</h2><p>İşlem geçmişi ve sistem kayıtları.</p></div></section>
+        <section id="section-users" class="section"><div class="placeholder-panel"><h2>Kullanıcı Yönetimi</h2><p>Kullanıcı listesi yükleniyor…</p></div></section>
+        <section id="section-reports" class="section"><div class="placeholder-panel"><h2>Raporlar</h2><p>Günlük / haftalık / aylık raporlar için hazır alan.</p></div></section>
+        <section id="section-settings" class="section"><div class="placeholder-panel"><h2>Ayarlar</h2><p>Sistem ayarları ve görünüm seçenekleri.</p></div></section>
+      </main>
+
+      <nav class="mobile-bottom-nav" aria-label="Mobil hızlı menü">
+      <button type="button" data-mobile-section="dashboard">⌂<span>Panel</span></button>
+      <button type="button" data-mobile-section="locations">⌖<span>Konumlar</span></button>
+      <button type="button" data-mobile-section="users" class="mobile-users">♙<span>Üyeler</span></button>
+      <button type="button" id="mobileLogout">↪<span>Çıkış</span></button>
+    </nav>
+<footer>© 2026 MB Yılmazlar Gıda - Teslimat Yönetim Sistemi. Tüm hakları saklıdır.</footer>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

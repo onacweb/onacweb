@@ -1,0 +1,660 @@
+[
+    {
+        "id": 1,
+        "name": "YİM MARKET ESENTEPE",
+        "location": "40.76605224609375, 29.797056198120117",
+        "note": "Hamit Kaplan Blv. No:224, Körfez, 41780, Kocaeli, TR; güncel koordinat",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 2,
+        "name": "KRS TOPTAN",
+        "location": "40.765586853027344, 29.797380447387695",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 3,
+        "name": "FURKAN MARKET",
+        "location": "40.77139663696289, 29.750804901123047",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 4,
+        "name": "KİRAZ ŞARKÜTERİ",
+        "location": "40.770389556884766, 29.755468368530273",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 5,
+        "name": "BİZİM BAKKAL",
+        "location": "40.769630432128906, 29.758892059326172",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 6,
+        "name": "ÖZDEN’İZ MARKET",
+        "location": "40.75364685058594, 29.787553787231445",
+        "note": "Güncel koordinat",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 7,
+        "name": "DAĞDEL MARKET",
+        "location": "40.75313949584961, 29.779966354370117",
+        "note": "Daha önce Dağden Market olarak not edilmişti",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 8,
+        "name": "DİLBER FIRIN",
+        "location": "40.76826858520508, 29.75682830810547",
+        "note": "Huzur Izgara ve Öztürk Büfe 3 yan yana",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 9,
+        "name": "HUZUR IZGARA",
+        "location": "40.76826858520508, 29.75682830810547",
+        "note": "Dilber Fırın ile aynı/yan yana konum",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 10,
+        "name": "ÖZTÜRK BÜFE 3",
+        "location": "40.76826858520508, 29.75682830810547",
+        "note": "Dilber Fırın ile aynı/yan yana konum",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 11,
+        "name": "İREM MARKET",
+        "location": "40.7528528, 29.7947434",
+        "note": "Deniz Marketten önce gidilecek",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 12,
+        "name": "DENİZ MARKET",
+        "location": "40.7554817199707, 29.791929244995117",
+        "note": "Güncel koordinat; rota: İrem Market → Deniz Market",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 13,
+        "name": "MAVİ NOKTA PETROL",
+        "location": "40.76580810546875, 29.776777267456055",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 14,
+        "name": "ÖZGE GIDA",
+        "location": "40.76877212524414, 29.78118896484375",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 15,
+        "name": "KILIÇ MARKET",
+        "location": "40.76852798461914, 29.783266067504883",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 16,
+        "name": "SONGUR PETROL",
+        "location": "40.772098541259766, 29.757976531982422",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 17,
+        "name": "ALTEMUR MARKET",
+        "location": "40.7663459777832, 29.784469604492188",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 18,
+        "name": "NARİN PİDE LAHMACUN",
+        "location": "40.76533126831055, 29.7814884185791",
+        "note": "Oğuz Market hemen karşısı",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 19,
+        "name": "OĞUZ MARKET",
+        "location": "40.76533126831055, 29.7814884185791",
+        "note": "Narin Pide hemen karşısı; 2. nokta",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 20,
+        "name": "ÖNDER GIDA",
+        "location": "40.76749038696289, 29.790164947509766",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 21,
+        "name": "RENA GIDA",
+        "location": "40.770790100097656, 29.8353271484375",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 22,
+        "name": "MERKEZ BÜFE",
+        "location": "40.77708053588867, 29.808673858642578",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 23,
+        "name": "YALÇIN BÜFE",
+        "location": "40.774349212646484, 29.8071231842041",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 24,
+        "name": "BÜFE",
+        "location": "40.77622604370117, 29.81587028503418",
+        "note": "İsim daha sonra netleştirilebilir",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 25,
+        "name": "MOPAŞ YENİKENT",
+        "location": "Gazi Mustafa Kemal Cad. Yenikent Mah. No:43, 41900 Derince/Kocaeli",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 26,
+        "name": "ÖZMAR",
+        "location": "40.760986328125, 29.803081512451172",
+        "note": "Güncel koordinat",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 27,
+        "name": "KEREM MARKET",
+        "location": "40.76670837402344, 29.809192657470703",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 28,
+        "name": "GÖZDE",
+        "location": "40.76246643066406, 29.805925369262695",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 29,
+        "name": "SEÇ ESENTEPE",
+        "location": "40.76472091674805, 29.800352096557617",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 30,
+        "name": "YILMAZ MARKET 2",
+        "location": "40.76157760620117, 29.79787826538086",
+        "note": "Seç Esentepe’nin yanı; Olgunlar Market ile aynı konum",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 31,
+        "name": "OLGUNLAR MARKET",
+        "location": "40.76157760620117, 29.79787826538086",
+        "note": "Yılmaz Market 2 ile aynı konum; Yılmaz Market 1 az ileride",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 32,
+        "name": "TKK ESENTEPE",
+        "location": "40.765132904052734, 29.797163009643555",
+        "note": "İlerisinde sağda KRS Toptan",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 33,
+        "name": "NASİP UNLU MAMÜLLERİ",
+        "location": "40.766624450683594, 29.794912338256836",
+        "note": "Az ilerisi Demircioğlu Döner",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 34,
+        "name": "MELODİ MARKET",
+        "location": "40.76029586791992, 29.794132232666016",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 35,
+        "name": "TÜTÜN ÇİFTLİK GIDA PAZARI",
+        "location": "40.761409759521484, 29.791051864624023",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 36,
+        "name": "YÜKSEL MARKET",
+        "location": "40.76747512817383, 29.786727905273438",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 37,
+        "name": "UFUK GIDA",
+        "location": "40.759368896484375, 29.80202293395996",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 38,
+        "name": "KARDEŞLER MİNİ MARKET",
+        "location": "40.76920700073242, 29.811199188232422",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 39,
+        "name": "İNAN MARKET",
+        "location": "40.776607513427734, 29.776132583618164",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 40,
+        "name": "ENSA GROSS",
+        "location": "40.774688720703125, 29.775304794311523",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 41,
+        "name": "ALYAKUT MARKET",
+        "location": "40.773780822753906, 29.77729034423828",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 42,
+        "name": "GÖKTÜ KARDEŞLER MARKET",
+        "location": "40.76517868041992, 29.808748245239258",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 43,
+        "name": "ŞİRİN GIDA",
+        "location": "40.77535629272461, 29.77172088623047",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 44,
+        "name": "DURMUŞLAR MARKET",
+        "location": "40.7765998840332, 29.7873477935791",
+        "note": "İleride solda Işık Market",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 45,
+        "name": "ALMAR İLİMTEPE",
+        "location": "40.801849365234375, 29.764041900634766",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 46,
+        "name": "KARDEŞLER MARKET İLİMTEPE",
+        "location": "40.80682373046875, 29.747209548950195",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 47,
+        "name": "SICACIK MARKET",
+        "location": "40.77133560180664, 29.801389694213867",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 48,
+        "name": "ÇEVİK MARKET GIDA",
+        "location": "40.77503967285156, 29.801727294921875",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 49,
+        "name": "TÜRKÖZ PETROL",
+        "location": "40.774478912353516, 29.80294418334961",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 50,
+        "name": "ALMAR",
+        "location": "40.7645263671875, 29.793563842773438",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 51,
+        "name": "EFOR GIDA",
+        "location": "40.77537536621094, 29.8110408782959",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 52,
+        "name": "ZİRVE TEKEL",
+        "location": "40.78242111206055, 29.80310821533203",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 53,
+        "name": "SAYGIN FIRIN",
+        "location": "40.77574157714844, 29.803993225097656",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 54,
+        "name": "EREN / GÖNÜL MARKET",
+        "location": "40.773040771484375, 29.791603088378906",
+        "note": "İsim: Eren veya Gönül Market",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 55,
+        "name": "KARDEŞLER MARKET 4748186",
+        "location": "40.77587127685547, 29.789548873901367",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 56,
+        "name": "ÇEVİKLER MARKET",
+        "location": "40.775794982910156, 29.787229537963867",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 57,
+        "name": "CRF TÜTÜNÇİFTLİK",
+        "location": "40.75920104980469, 29.78795051574707",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 58,
+        "name": "MOPAŞ TÜTÜNÇİFTLİK",
+        "location": "40.76041793823242, 29.784931182861328",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 59,
+        "name": "ATAK GROSS",
+        "location": "40.76221466064453, 29.78026008605957",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 60,
+        "name": "KAYA ÇİFTLİĞİ GÜNEY",
+        "location": "40.75959396362305, 29.786012649536133",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 61,
+        "name": "TAÇMAR",
+        "location": "40.7520637512207, 29.78391456604004",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 62,
+        "name": "HALK MARKET",
+        "location": "40.750980377197266, 29.791793823242188",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 63,
+        "name": "BALTALAR EKMEK FIRINI",
+        "location": "40.75294494628906, 29.79509925842285",
+        "note": "İrem Market’in az ilerisi, sağ tarafta",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 64,
+        "name": "TKK KOCAELİ KÖRFEZ HACI OSMAN",
+        "location": "40.774539947509766, 29.751232147216797",
+        "note": "İleride solda Peynirci Baba",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 65,
+        "name": "AKSOYLAR KRYMŞ",
+        "location": "40.75479507446289, 29.79606819152832",
+        "note": "İleride sağda Kaşarcıoğlu",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 66,
+        "name": "ARDA MARKET / ARDAN BAKKALİYESİ",
+        "location": "40.776309967041016, 29.739572525024414",
+        "note": "İleride solda Sis-Mar; az ileride TKK Kocaeli Körfez Bağdat; ileride sağda Çarka Market",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 67,
+        "name": "TKK 95 EVLER",
+        "location": "40.75415802001953, 29.79574203491211",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 68,
+        "name": "GÖZDENİZ MARKET",
+        "location": "40.75109100341797, 29.79534912109375",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 69,
+        "name": "EKOMİNİ ADNAN ERÇİN",
+        "location": "40.74982452392578, 29.798044204711914",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 70,
+        "name": "UMUT MARKET",
+        "location": "40.749820709228516, 29.802526473999023",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 71,
+        "name": "YAĞMUR MARKET",
+        "location": "40.751529693603516, 29.80546760559082",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 72,
+        "name": "GÖNÜL MARKET",
+        "location": "40.754432678222656, 29.80286979675293",
+        "note": "Eren/Gönül Market kaydından ayrı konum",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 73,
+        "name": "ÜÇGEN MARKET",
+        "location": "40.7780647277832, 29.70747184753418",
+        "note": "Güncel koordinat",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 74,
+        "name": "BEŞENOĞLU DONDURMA",
+        "location": "40.75639724731445, 29.803220748901367",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 75,
+        "name": "NJET MARKET",
+        "location": "40.77901077270508, 29.66660499572754",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 76,
+        "name": "LA GOLFO",
+        "location": "40.75346755981445, 29.808162689208984",
+        "note": "Hemen karşısı Canan Büfe; yaklaşık 100 metre ileride TKK 60 Evler",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 77,
+        "name": "SİMİT SARAYI DERİNCE",
+        "location": "40.75539016723633, 29.809268951416016",
+        "note": "Az ilerisi Peynirci Baba; onun az ilerisi Kaya Çiftliği",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 78,
+        "name": "YAVUZ SULTAN EKMEK PASTA",
+        "location": "40.75468826293945, 29.809965133666992",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 79,
+        "name": "SULTAN BÜFE",
+        "location": "40.78693771362305, 29.61837387084961",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 80,
+        "name": "GÜMÜŞ GIDA",
+        "location": "40.78591537475586, 29.627450942993164",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 81,
+        "name": "KAYA GIDA",
+        "location": "40.783870697021484, 29.631406784057617",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 82,
+        "name": "OPET KÖRFEZ",
+        "location": "40.7769889831543, 29.711862564086914",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 83,
+        "name": "MİXSOS DÖNER",
+        "location": "40.75977325439453, 29.7860107421875",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 84,
+        "name": "NAZAN AİLE BAKKALI",
+        "location": "40.77351379394531, 29.759632110595703",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 85,
+        "name": "GÖÇMEN BÖREK SAN. VE TİC.",
+        "location": "40.773311614990234, 29.743345260620117",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 86,
+        "name": "YİM MARKET YARIMCA",
+        "location": "40.77291488647461, 29.739173889160156",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 87,
+        "name": "DENİZ BÜFE",
+        "location": "40.7730598449707, 29.738014221191406",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 88,
+        "name": "ATMACA MARKET",
+        "location": "40.77790451049805, 29.702293395996094",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 89,
+        "name": "NİSA MARKET",
+        "location": "40.77793502807617, 29.701480865478516",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 90,
+        "name": "TOPRAK MARKET",
+        "location": "40.78447723388672, 29.621776580810547",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 91,
+        "name": "TKK KOCAELİ KÖRFEZ HEREKE",
+        "location": "40.784950256347656, 29.617456436157227",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 92,
+        "name": "EMİŞ SPOT MARKET – EMİN SOYLU",
+        "location": "40.78505325317383, 29.6171932220459",
+        "note": "TKK Kocaeli Körfez Hereke’ye çok yakın",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 93,
+        "name": "POLAT AVM",
+        "location": "40.80143356323242, 29.645427703857422",
+        "note": "",
+        "created": "23.08.2026"
+    },
+    {
+        "id": 94,
+        "name": "ASMAR MARKET",
+        "location": "40.80632400512695, 29.64683723449707",
+        "note": "",
+        "created": "23.08.2026"
+    }
+]
